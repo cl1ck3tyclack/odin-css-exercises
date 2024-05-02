@@ -1,0 +1,22 @@
+/* classes */
+
+.odd {
+    background-color: rgb(255, 85, 85);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.set-font-size {
+    font-size: 24px;
+}
+
+/* ids */
+
+#two {
+    color: #0000FF;
+    font-size: 36px;
+}
+
+#four {
+    background-color: hsl(120, 85%, 60%);
+    font-weight: bold;
+}
