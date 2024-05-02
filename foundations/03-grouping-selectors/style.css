@@ -1,0 +1,16 @@
+/* both */
+.black, .yellow {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+/* unique */
+.black {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.yellow {
+    background-color: #ffff00;
+}
