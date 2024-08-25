@@ -2,6 +2,7 @@
 
 html, body {
   height: 100%;
+  
 }
 
 body {
@@ -13,13 +14,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* text-align: center; */
 }
 
 .modal {
+  /* outline: 2px solid red; */
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -27,13 +33,53 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
-  height: 42px;
   border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  /* min-width: 42px; */
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.alert {
+  /* outline: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* .header { OFFICIAL SOLUTION: does the same thing as my solution above (.alert + .header) under one class (.header)
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+} */
+
+.text {
+  margin-bottom: 16px;
+}
+
+/* .modal > * {
+  outline: 2px solid red;
+}
+
+.prompt > * {
+  outline: 2px solid red;
+}
+
+.alert > * {
+  outline: 2px solid red;
+} */
 
 .close-button {
   background: #eee;
