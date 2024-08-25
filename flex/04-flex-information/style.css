@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -7,10 +8,29 @@ img {
   height: 100px;
 }
 
+.container {
+  /* outline: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.item {
+  /* outline: 2px solid red; */
+  max-width: 200px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
+
+
+
+/* div > img, div.text {
+  outline: 2px solid red;
+} */
 
 /* do not edit this footer */
 .footer {
